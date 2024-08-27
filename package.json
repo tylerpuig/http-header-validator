@@ -2,11 +2,18 @@
   "name": "http-header-validator",
   "version": "1.0.0",
   "description": "Validate HTTP headers.",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/cjs/index.d.ts",
+  "main": "./dist/cjs/index.cjs.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
   "directories": {
     "test": "tests"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.cjs.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
   },
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
