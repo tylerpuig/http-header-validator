@@ -19,10 +19,20 @@
     "header validator",
     "header validation",
     "validate headers",
-    "validate header"
+    "validate header",
+    "validate http header",
+    "validate http headers",
+    "http header validator",
+    "http header validation",
+    "http headers validator",
+    "http headers validation"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "https://github.com/tylerpuig",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tylerpuig/http-header-validator.git"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "jest": "^29.7.0",

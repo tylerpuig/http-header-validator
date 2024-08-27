@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/http-header-validator.svg)](https://badge.fury.io/js/http-header-validator)
 
-HTTP Header Validator is a lightweight, high-performance library to validate HTTP header keys and values.
+HTTP Header Validator is a lightweight, high-performance library for validating HTTP header keys and values as defined in [RFC 7230, Section 3.2.6](https://datatracker.ietf.org/doc/html/rfc7230#section-3.2.6).
 
 ## Installation
 
