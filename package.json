@@ -1,6 +1,6 @@
 {
   "name": "http-header-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate HTTP headers.",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.mjs",
