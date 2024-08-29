@@ -14,13 +14,21 @@ npm install http-header-validator
 
 This package is available for both ESM and CJS.
 
+### ESM
+
 ```javascript
-// ESM
-import httpHeaderValidator from "http-header-validator";
+import { httpHeaderValidator } from "http-header-validator";
+```
 
-// CJS
-const httpHeaderValidator = require("http-header-validator");
+### CJS
 
+```javascript
+const { httpHeaderValidator } = require("http-header-validator");
+```
+
+## Example
+
+```javascript
 const isValidKey = httpHeaderValidator.validateHeaderKey("Accept");
 const isValidValue =
   httpHeaderValidator.validateHeaderValue("application/json");

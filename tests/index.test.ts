@@ -1,4 +1,4 @@
-import httpHeaderValidator from "../src/index";
+import { httpHeaderValidator } from "../src/index";
 
 const headerKeyTests: { input: string; expectedOutput: boolean }[] = [
   {

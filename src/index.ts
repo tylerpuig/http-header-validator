@@ -110,4 +110,4 @@ function invalidTypeOrLength(value: string): boolean {
   return !isString(value) || value.length === 0;
 }
 
-export default httpHeaderValidator;
+export { httpHeaderValidator };
